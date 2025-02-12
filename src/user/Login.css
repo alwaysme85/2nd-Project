@@ -4,6 +4,8 @@
   z-index: -10;
   width: 100vw;
   height: 100vh;
+  margin-left: -10px;
+  margin-top: -8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,4 +48,10 @@ label {
   border: none;
   font-size: medium;
   cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .changeinput {
+    width: 55vw;
+    height: 5vh;
+  }
 }

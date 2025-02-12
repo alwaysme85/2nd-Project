@@ -12,7 +12,6 @@ function Test() {
   });
 
   useEffect(() => {
-    console.log("Some modification happened in cart");
     const reducedValues = cartItems.reduce(
       (acc, currentProduct) => {
         console.log(acc.quantity, currentProduct.quantity);

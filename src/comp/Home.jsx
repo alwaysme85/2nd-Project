@@ -7,6 +7,7 @@ import CartContext from "../user/CartContext";
 function Home() {
   const { data } = useFetch("data.json");
   const { cartItems, setCartItems } = useContext(CartContext);
+  const { playlistItems, setPlaylistItems } = useContext(CartContext);
 
   const handleAddItemToCart = (product) => {
     // First thing i will look into the old Cart
@@ -28,14 +29,15 @@ function Home() {
       setCartItems(updatedCartArr);
     }
   };
+  const handleAddItemToPlay = (product) => {
+    const indexOfTheProduct = playlistItems.findIndex(
+      (item) => item.id === product.id
+    );
+    if (indexOfTheProduct === -1) {
+      setPlaylistItems([...playlistItems, product]);
+    }
+  };
 
-  /*  
-  useEffect(() => {
-    fetch("https://fakestoreapi.com/carts")
-      .then((response) => response.json())
-      .then((data) => setTracks(data))
-      .catch((err) => console.log(err));
-  }, []); */
   return (
     <>
       <div className="back3"></div>
@@ -43,12 +45,11 @@ function Home() {
       <ul className="cards">
         {data.map((product) => (
           <li key={product.id} className="items">
-            <div></div>
             <div className="text">
               {product.name} - {product.title}
-              <div>€{product.price}</div>
+              <div className="price">€{product.price}</div>
             </div>
-
+            <img src={product.image} className="images" />
             <div className="btn-cards">
               <button
                 className="buy"
@@ -56,7 +57,12 @@ function Home() {
               >
                 Add to Cart
               </button>
-              <button className="play">Add to Playlist</button>
+              <button
+                className="play"
+                onClick={() => handleAddItemToPlay(product)}
+              >
+                Add to Playlist
+              </button>
             </div>
           </li>
         ))}

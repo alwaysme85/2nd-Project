@@ -3,6 +3,8 @@
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  margin-left: -10px;
+  margin-top: -8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,4 +20,9 @@
   border: none;
   font-size: medium;
   cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .btn-4 {
+    border: 1px solid greenyellow;
+  }
 }

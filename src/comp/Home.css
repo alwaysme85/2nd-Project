@@ -7,14 +7,14 @@
 }
 .head6 {
   margin-top: 400px;
-  color: white;
+  color: rgb(235, 223, 223);
   font-size: 50px;
 }
 .cards {
   margin-top: 400px;
   height: 300px;
   background: none;
-  animation-duration: 30s;
+  animation-duration: 15s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
@@ -29,7 +29,7 @@
   }
 
   to {
-    margin-left: -57%;
+    margin-left: -77%;
 
     -webkit-animation-timing-function: linear;
   }
@@ -38,12 +38,12 @@
   animation-play-state: paused;
 }
 .btn-cards {
-  margin-top: 170px;
+  margin-top: 7px;
   display: flex;
   flex-direction: row;
   gap: 10px;
   margin-right: 20px;
-  margin-left: 14px;
+  margin-left: 28px;
 }
 .buy {
   width: 6vw;
@@ -51,9 +51,8 @@
   border-radius: 20px;
   border: none;
   font-weight: 500;
-  background-color: rgba(27, 16, 16, 0.705);
-  color: rgb(193, 223, 26);
-
+  background-color: rgba(245, 245, 245, 0.781);
+  color: rgb(20, 20, 17);
   cursor: pointer;
   font-weight: 800;
 }
@@ -64,20 +63,19 @@
   border: none;
   background-color: rgba(27, 16, 16, 0.705);
   color: rgb(193, 223, 26);
-
   cursor: pointer;
   font-weight: 800;
 }
 .items {
-  border: 1px solid rgb(10, 9, 9);
   border-radius: 20px;
   margin-left: 10px;
-  background-color: rgb(46, 28, 28);
+  background-color: rgba(10, 10, 10, 0.616);
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/05.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../assets/yHeadphones.jpg");
+  background-size: 2.5cm;
+  background-repeat: no-repeat;
+  background-position: initial;
   font-style: italic;
 }
 .items:hover {
@@ -85,10 +83,69 @@
 }
 
 .text {
-  margin-left: 20px;
-  margin-top: 20px;
-  text-align: center;
-  font-weight: 400;
+  margin-right: 12px;
+  margin-top: 185px;
+  text-align: end;
+  font-weight: 700;
+  z-index: 20;
+  color: rgb(10, 10, 9);
+}
+.images {
+  width: 300px;
+  height: 190px;
+  margin-top: -191px;
+}
+.price {
+  border: 1px solid black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  width: 104%;
+  color: rgb(51, 85, 17);
+  background-color: rgba(240, 255, 255, 0.692);
+}
 
-  color: white;
+@media screen and (min-width: 900px) {
+  .buy {
+    width: 6vw;
+  }
+  .play {
+    width: 6vw;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .buy {
+    width: 30vw;
+    height: 6vh;
+  }
+  .play {
+    width: 30vw;
+    height: 6vh;
+  }
+  .cards {
+    width: 90%;
+    margin-top: 200px;
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 2%;
+
+      -webkit-animation-timing-function: linear;
+    }
+
+    to {
+      margin-left: -730%;
+
+      -webkit-animation-timing-function: linear;
+    }
+  }
+  .cards:hover {
+    animation-play-state: paused;
+  }
 }

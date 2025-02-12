@@ -34,7 +34,7 @@ function Footer() {
         <div className="tools">
           <div className="help">HELP</div>
           <div className="faqs">FAQS</div>
-          <div className="priv">PRIVACY POLICY</div>
+          <div className="priv">PRIVACY</div>
         </div>
 
         <div className="copy">

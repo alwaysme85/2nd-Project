@@ -1,9 +1,11 @@
+/* Default Styles */
 .head {
   margin-top: 100px;
   margin-left: 0;
   background: none;
   font-size: 40px;
 }
+
 .subtotal {
   margin-top: 320px;
   background: none;
@@ -13,6 +15,7 @@
   align-items: start;
   gap: 30px;
 }
+
 .clear {
   margin-top: 50px;
   margin-left: 50px;
@@ -23,6 +26,7 @@
   border: none;
   cursor: pointer;
 }
+
 .rest {
   position: absolute;
   z-index: 100;
@@ -30,13 +34,16 @@
   margin-top: 100px;
   background: none;
 }
+
 .tprice {
   margin-left: 20px;
 }
+
 h4 {
   font-size: 25px;
   margin-top: 190px;
 }
+
 .track-title {
   margin-left: 10px;
 }
@@ -44,6 +51,7 @@ h4 {
 .track-price {
   margin-left: 20px;
 }
+
 .minus {
   margin-left: 10px;
 }
@@ -51,6 +59,7 @@ h4 {
 .quant {
   margin-left: 40px;
 }
+
 .select {
   margin-left: 20px;
   cursor: pointer;
@@ -63,4 +72,90 @@ h4 {
   border-radius: 10px;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .head {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+
+  .subtotal {
+    margin-top: 250px;
+    gap: 20px;
+  }
+
+  .clear {
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+
+  .subtotal {
+    margin-top: 200px;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .clear {
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 20px;
+  }
+
+  h4 {
+    font-size: 22px;
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .head {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .subtotal {
+    margin-top: 170px;
+    align-items: center;
+    gap: 10px;
+    margin-left: -80px;
+    font-size: 15px;
+  }
+
+  .clear {
+    font-size: 14px;
+    padding: 6px;
+    margin-left: 100px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-top: 190px;
+    /* text-align: center; */
+    margin-left: 10px;
+  }
+  .rem {
+    width: 55px;
+    font-weight: 400;
+    font-size: 10px;
+    padding-top: 4px;
+  }
+  .track-title,
+  .track-price,
+  .minus,
+  .quant,
+  .select,
+  .rem {
+    margin-left: 5px;
+  }
 }
