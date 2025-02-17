@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Britney Spears",
+    "title": "Criminal",
+    "album": "Toxic",
+    "price": "20.99",
+    "id": 1,
+    "genre": "Pop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738263117/Britney_qqzsae.jpg"
+  },
+  {
+    "name": "Jennifer Lopez",
+    "title": "Mad in Love",
+    "album": "Now",
+    "price": "25.50",
+    "id": 2,
+    "genre": "Pop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738411593/wp10986694-jennifer-lopez-desktop-wallpapers_xzpgtz.jpg"
+  },
+  {
+    "name": "Justin Bieber",
+    "title": "Take You",
+    "album": "Believe",
+    "price": "17.99",
+    "id": 3,
+    "genre": "Pop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738410950/wp11985650-justin-bieber-2023-wallpapers_s4m8mb.jpg"
+  },
+  {
+    "name": "Justin Bieber",
+    "title": "Fall",
+    "album": "Believe",
+    "price": "15.99",
+    "id": 4,
+    "genre": "Pop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738411039/wp11985609-justin-bieber-2023-wallpapers_eodm3g.jpg"
+  },
+  {
+    "name": "Justin Bieber",
+    "title": "Right Here",
+    "album": "Believe",
+    "price": "19.99",
+    "id": 5,
+    "genre": "Pop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738411176/wp11985604-justin-bieber-2023-wallpapers_ync7bk.jpg"
+  },
+  {
+    "name": "Eminem",
+    "title": "Not Afraid",
+    "album": "Recovery",
+    "price": "22.99",
+    "id": 6,
+    "genre": "Hip Hop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738271099/wp7116858-eminem-4k-wallpapers_ggebwq.jpg"
+  },
+  {
+    "name": "Eminem",
+    "title": "No love",
+    "album": "Recovery",
+    "price": "22.99",
+    "id": 7,
+    "genre": "Hip Hop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738271099/wp7116858-eminem-4k-wallpapers_ggebwq.jpg"
+  },
+  {
+    "name": "50 Cent",
+    "title": "Candy Shop",
+    "album": "The Massacre",
+    "price": "14.99",
+    "id": 8,
+    "genre": "Hip Hop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738410247/wc1674939-50-cent-wallpaper-2016_vtkplr.jpg"
+  },
+  {
+    "name": "50 Cent",
+    "title": "In da Club",
+    "album": "Get Rich or Die Tryin'",
+    "price": "14.99",
+    "id": 9,
+    "genre": "Hip Hop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738409764/wp3936628-50-cent-wallpaper-2017_pggqme.jpg"
+  },
+  {
+    "name": "Selena Gomez",
+    "title": "Rare ",
+    "album": "Rare",
+    "price": "19.99",
+    "id": 10,
+    "genre": "Pop",
+    "image": "https://res.cloudinary.com/dw5lopqza/image/upload/v1738412169/wp14277692-selena-gomez-rare-beauty-2024-wallpapers_aylxqy.jpg"
+  }
+]
